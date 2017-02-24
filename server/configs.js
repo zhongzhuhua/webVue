@@ -13,7 +13,6 @@ exports.getConfigs = function() {
     } else if (run.indexOf('stg') == 0) {
         env = 'stg';
     }
-
     return {
         env: env
     };
